@@ -70,7 +70,7 @@ if [ ! -e locations.json ]; then
 curl -s -o locations.json https://raw.githubusercontent.com/yonggekkk/Cloudflare_vless_trojan/main/cf/locations.json
 fi
 if [ ! -e ips-v4.txt ]; then
-curl -s -o ips-v4.txt https://raw.githubusercontent.com/yonggekkk/Cloudflare_vless_trojan/main/cf/ips-v4.txt
+curl -s -o ips-v4.txt https://raw.githubusercontent.com/davidchim/Cloudflare_vless_trojan/main/cf/ips-v4.txt
 fi
 if [ ! -e ips-v6.txt ]; then
 curl -s -o ips-v6.txt https://raw.githubusercontent.com/yonggekkk/Cloudflare_vless_trojan/main/cf/ips-v6.txt
